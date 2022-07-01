@@ -85,5 +85,5 @@ fig_two.yaxis[0].formatter = NumeralTickFormatter(format="$0.0a")
 
 # fig_two.width = 1450
 # fig_two.height = 900
-output_file(filename="nyc_tip_distance.html")
-show(layout(row([fig, y_slider]), fig_two))
+output_file(filename="index.html")
+show(row(layout([fig, y_slider]), fig_two))
