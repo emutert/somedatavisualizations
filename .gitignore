@@ -49,3 +49,9 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# VSCode
+.vscode/
+
+# pipenv
+Pipfile
+Pipfile.lock
